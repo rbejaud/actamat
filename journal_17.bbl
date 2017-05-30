@@ -1,0 +1,123 @@
+\begin{thebibliography}{14}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Brochard et~al.(2000)Brochard, Beauchamp, and Grilhe}]{brochard00PMA}
+\bibinfo{author}{S.~Brochard}, \bibinfo{author}{P.~Beauchamp},
+  \bibinfo{author}{J.~Grilhe},
+\newblock \bibinfo{title}{Dislocation nucleation from surface steps: Atomistic
+  simulation in aluminium},
+\newblock \bibinfo{journal}{Philosophical Magazine A} \bibinfo{volume}{80}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{503--524}.
+%Type = Article
+\bibitem[{Hirel et~al.(2007)Hirel, Brochard, Pizzagalli, and
+  Beauchamp}]{hirel07SM}
+\bibinfo{author}{P.~Hirel}, \bibinfo{author}{S.~Brochard},
+  \bibinfo{author}{L.~Pizzagalli}, \bibinfo{author}{P.~Beauchamp},
+\newblock \bibinfo{title}{Effects of temperature and surface step on the
+  incipient plasticity in strained aluminium studied by atomistic simulations},
+\newblock \bibinfo{journal}{Scripta Materialia} \bibinfo{volume}{57}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{1141 -- 1144}.
+%Type = Article
+\bibitem[{Plimpton(1995)}]{plimpton95JCP}
+\bibinfo{author}{S.~Plimpton},
+\newblock \bibinfo{title}{Fast parallel algorithms for short-range molecular
+  dynamics},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{117} (\bibinfo{year}{1995}) \bibinfo{pages}{1--19}.
+%Type = Article
+\bibitem[{Williams et~al.(2006)Williams, Mishin, and
+  Hamilton}]{williams06MSMSE}
+\bibinfo{author}{P.~L. Williams}, \bibinfo{author}{Y.~Mishin},
+  \bibinfo{author}{J.~C. Hamilton},
+\newblock \bibinfo{title}{An embedded-atom potential for the cu?ag system},
+\newblock \bibinfo{journal}{Modelling and Simulation in Materials Science and
+  Engineering} \bibinfo{volume}{14} (\bibinfo{year}{2006})
+  \bibinfo{pages}{817}.
+%Type = Article
+\bibitem[{Stukowski(2010)}]{stukowski10MSMSE1}
+\bibinfo{author}{A.~Stukowski},
+\newblock \bibinfo{title}{Visualization and analysis of atomistic simulation
+  data with ovito the open visualization tool},
+\newblock \bibinfo{journal}{Modelling and Simulation in Materials Science and
+  Engineering} \bibinfo{volume}{18} (\bibinfo{year}{2010})
+  \bibinfo{pages}{015012}.
+%Type = Article
+\bibitem[{Wang et~al.(2011)Wang, Beyerlein, Mara, and Bhattacharyya}]{wang11SM}
+\bibinfo{author}{J.~Wang}, \bibinfo{author}{I.~J. Beyerlein},
+  \bibinfo{author}{N.~A. Mara}, \bibinfo{author}{D.~Bhattacharyya},
+\newblock \bibinfo{title}{Interface-facilitated deformation twinning in copper
+  within submicron ag?cu multilayered composites},
+\newblock \bibinfo{journal}{Scripta Materialia} \bibinfo{volume}{64}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{1083 -- 1086}.
+%Type = Article
+\bibitem[{An et~al.(2015)An, Zhu, Cao, Kawasaki, Liao, Ringer, Nie, Langdon,
+  and Zhu}]{an15APL}
+\bibinfo{author}{X.~H. An}, \bibinfo{author}{S.~M. Zhu},
+  \bibinfo{author}{Y.~Cao}, \bibinfo{author}{M.~Kawasaki},
+  \bibinfo{author}{X.~Z. Liao}, \bibinfo{author}{S.~P. Ringer},
+  \bibinfo{author}{J.~F. Nie}, \bibinfo{author}{T.~G. Langdon},
+  \bibinfo{author}{Y.~T. Zhu},
+\newblock \bibinfo{title}{Atomic-scale investigation of interface-facilitated
+  deformation twinning in severely deformed ag-cu nanolamellar composites},
+\newblock \bibinfo{journal}{Applied Physics Letters} \bibinfo{volume}{107}
+  (\bibinfo{year}{2015}).
+%Type = Article
+\bibitem[{Li and Chew(2015)}]{li15PM}
+\bibinfo{author}{R.~Li}, \bibinfo{author}{H.~B. Chew},
+\newblock \bibinfo{title}{Planar-to-wavy transition of cu?ag nanolayered
+  metals: a precursor mechanism to twinning},
+\newblock \bibinfo{journal}{Philosophical Magazine} \bibinfo{volume}{95}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1029--1048}.
+%Type = Book
+\bibitem[{Hirth and Lothe(1982)}]{hirth82book}
+\bibinfo{author}{J.~P. Hirth}, \bibinfo{author}{J.~Lothe},
+  \bibinfo{title}{Theory of Dislocations}, \bibinfo{year}{1982}.
+%Type = Article
+\bibitem[{Christian(1951)}]{christian51PRS}
+\bibinfo{author}{J.~W. Christian},
+\newblock \bibinfo{title}{A theory of the transformation in pure cobalt},
+\newblock \bibinfo{journal}{Proceedings of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences} \bibinfo{volume}{206}
+  (\bibinfo{year}{1951}) \bibinfo{pages}{51--64}.
+%Type = Article
+\bibitem[{Wu et~al.(2009)Wu, Zhang, and Srolovitz}]{wu09AM}
+\bibinfo{author}{Z.~Wu}, \bibinfo{author}{Y.~Zhang},
+  \bibinfo{author}{D.~Srolovitz},
+\newblock \bibinfo{title}{Dislocation twin interaction mechanisms for ultrahigh
+  strength and ductility in nanotwinned metals},
+\newblock \bibinfo{journal}{Acta Materialia} \bibinfo{volume}{57}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{4508 -- 4518}.
+%Type = Article
+\bibitem[{Bonneville and J.Douin(1990)}]{bonneville90PML}
+\bibinfo{author}{J.~Bonneville}, \bibinfo{author}{J.Douin},
+\newblock \bibinfo{title}{On the asymmetrical dissociation of lomer
+  dislocations},
+\newblock \bibinfo{journal}{Philosophical Magazine Letters}
+  \bibinfo{volume}{62} (\bibinfo{year}{1990}) \bibinfo{pages}{247 -- 251}.
+%Type = Article
+\bibitem[{Mills and Stadelmann(1989)}]{mills89PMA}
+\bibinfo{author}{M.~J. Mills}, \bibinfo{author}{P.~Stadelmann},
+\newblock \bibinfo{title}{A study of the structure of lomer and 60 dislocations
+  in aluminium using high-resolution transmission electron microscopy},
+\newblock \bibinfo{journal}{Philosophical Magazine A} \bibinfo{volume}{60}
+  (\bibinfo{year}{1989}) \bibinfo{pages}{355--384}.
+%Type = Article
+\bibitem[{Afanasyev and Sansoz(2007)}]{sansoz07NL}
+\bibinfo{author}{K.~A. Afanasyev}, \bibinfo{author}{F.~Sansoz},
+\newblock \bibinfo{title}{Strengthening in gold nanopillars with nanoscale
+  twins},
+\newblock \bibinfo{journal}{Nano Letters} \bibinfo{volume}{7}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{2056--2062}.
+
+\end{thebibliography}
