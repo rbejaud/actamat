@@ -51,7 +51,7 @@
 %% \address{Address\fnref{label3}}
 %% \fntext[label3]{}
 
-\title{Title}
+\title{Twin-interface interactions in nanostructured Cu/Ag: molecular dynamics study}
 %\tnotetext[t1]{This document is a collaborative effort.}
 %\tnotetext[t2]{The second title footnote which is a longer longer than the first one and with an intention to fill in up more than one line while formatting.}
 
@@ -74,7 +74,9 @@
 
 
 \begin{abstract}
-Our study highlights for Cu/Ag nanolamellar composites, the role of the interface structures for twin nucleation, propagation and thickening, using atomic scale simulations. In particular, we show that misfit dislocations present along the interface can induce, directly from the interface or indirectly via Lomer dislocations, the nucleation of mechanical twins. We also show the non negligible role played by the misfit dislocations mesh in the thickening of twins and a complete detail of the involved mechanism is given. Through this atomic scale approach, our study offers some useful understanding of the mechanical twinning process in these Cu/Ag nanolamellar composites, where twinning appear to be very frequent plastic mechanism.
+\textcolor{magenta}{The interaction of twins with interfaces in nanostructured Cu/Ag is studied} using \textcolor{magenta}{molecular dynamics} simulations. \textcolor{magenta}{The influence of the interface structure on twin nucleation, propagation and thickening is analysed, and the role of the misfit interfacial dislocations mesh is detailed.} In particular, we show that \textcolor{magenta}{the interface} can induce, directly or indirectly via Lomer dislocations, the nucleation of \textcolor{magenta}{twinning dislocations. A thorough description of the involved mechanisms is given.} Through this atomic scale approach, our study offers some useful understanding of the mechanical twinning process in \textcolor{magenta}{\sout{Cu/Ag}} nanolamellar composites, where twinning appears to be \textcolor{magenta}{a common} plasticity mechanism.
+
+%Our study highlights for Cu/Ag nanolamellar composites, the role of the interface structures for twin nucleation, propagation and thickening, using atomic scale simulations. In particular, we show that misfit dislocations present along the interface can induce, directly from the interface or indirectly via Lomer dislocations, the nucleation of mechanical twins. We also show the non negligible role played by the misfit dislocations mesh in the thickening of twins and a complete detail of the involved mechanism is given. Through this atomic scale approach, our study offers some useful understanding of the mechanical twinning process in these Cu/Ag nanolamellar composites, where twinning appear to be very frequent plastic mechanism.
 \end{abstract}
 
 \begin{keyword}
@@ -99,17 +101,17 @@ When they are structured at nanoscale, materials can exhibit properties differen
 
 Many of the bimetallic nanolayered composites are usually prepared using techniques like cold rolling, accumulative roll-bonding, and high-pressure torsion  \cite{tian13SM,han12APL}. A high amount of elastic strain is stored in materials during these severe plastic deformation (SPD) processes and is commonly released by mechanical twinning. 
 It is well documented that the nucleation of partial dislocations and mechanical twinning is promoted at the nanoscale \cite{chen03S,dehm07AM}. 
-This trend is especially true in fcc nanolayered materials.
+This trend is especially true in \textcolor{magenta}{metallic} nanolayered materials.
 Indeed, recent experimental studies evidenced that twinning occurs at high stresses or strains in Cu/Nb, Cu/Ag and Cu/Au bimaterials \cite{zheng14AM}.  
 It is expected that heterophase interfaces play a crucial role on the onset of mechanical twinning. Depending on the interface type (coherent, semi-coherent or incoherent), twinning dislocations (TDs) may be nucleated from the interface directly in adjacent planes or transmitted from one layer to the other, or may be stopped at the interface leading to a strengthening effect \cite{an15APL}.
 
 Therefore the structure of heterophase interfaces appears to be a key parameter for the plastic mechanisms involved in these particular materials and a fundamental understanding of how interfaces interact with twins becomes essential. Because of the small length and time scales at which the elementary plastic mechanisms occur, atomistic simulations appear to be relevant and efficient tools to study mechanical twinning in nanolayered metals. 
 
-In this study, molecular dynamics simulations were performed to investigate, at the atomic scale, the interaction of twins with interfaces, and more precisely the role of misfit dislocations on twin nucleation and thickening. 
+In this study, molecular dynamics simulations were performed to investigate, at the atomic scale, the interaction of twins with interfaces \textcolor{magenta}{in a face centered cubic (fcc) bimetal}, and more precisely the role of misfit dislocations on twin nucleation and thickening. 
 %Unlike most of molecular dynamics simulations, 
-Our strategy was not to perfectly reproduce experimental situations such as those encountered during SPD process,
+Our strategy was not to perfectly reproduce experimental situations such as those encountered during SPD processes,
 %multilayered systems 
-but rather to consider configurations for which twinning is promoted and twin/interface interactions easily analysed. The chosen model is a self-supported thin Cu/Ag film with two commonly experimentally observed interface types, referenced as “heterotwin” and “cube on cube” in the following. Twin/interface interactions are then studied according to the interface type. The simulation model is detailed in section \ref{subpart_model} and a description of both interface types is given in section \ref{subpart_interface}. In section \ref{part_influence}, we first analyse the role of the interface structure on mechanical twinning for a reference case, for a “cube on cube” interface (section \ref{subsubpart_sAg}) and for a “heterotwin” interface (section \ref{subsubpart_sAg2}). Different sites for the first plastic event are then considered in section \ref{subsubpart_comparaison} in order to assess the sensitivity of the simulation results with this parameter. Finally, in section \ref{part_misfit}, the role of misfit dislocations on twin nucleation and thickening is highlighted, with a focus given on twin nucleation and thickening mechanisms implying misfit dislocations for a “heterotwin” interface, in section \ref{subsubpart_lomer}, and for a “cube on cube” interface, in section \ref{subsubpart_twin}.         
+but rather to consider configurations for which twinning is promoted and twin/interface interactions easily analysed. The chosen model is a self-supported thin Cu/Ag film with two commonly experimentally observed interface types, referenced as “heterotwin” and “cube on cube” in the following. Twin/interface interactions are then studied according to the interface type. The simulation model is detailed in section \ref{subpart_model} and a description of both interface types is given in section \ref{subpart_interface}. In section \ref{part_influence}, we first analyse the role of the interface structure on mechanical twinning for a reference case, for a “cube on cube” interface (section \ref{subsubpart_sAg}) and for a “heterotwin” interface (section \ref{subsubpart_sAg2}). Different sites for the first plastic event are then considered in section \ref{subsubpart_comparaison}, in order to assess the sensitivity of the simulation results to this parameter. Finally, in section \ref{part_misfit}, the role of misfit dislocations on twin nucleation and thickening is highlighted, with a focus given on twin nucleation and thickening mechanisms implying misfit dislocations for a “heterotwin” interface in section \ref{subsubpart_lomer}, and for a “cube on cube” interface in section \ref{subsubpart_twin}.         
 
 \section{Model and methods}
 \label{part_methods}
@@ -242,17 +244,18 @@ D\beta_{Ag} &+& B\delta_{Ag} &\rightarrow& \frac{2}{3}BD/AC_{Ag}
 When the accumulated stress is high enough, the newly formed dislocation dissociates according to the reaction:
 
 \begin{eqnarray}\label{3}
+	\begin{footnotesize}
 	\begin{array}{cccccccc}
 \frac{2}{3}\left[100\right]_{Ag} &\rightarrow& \frac{1}{2}\left[0\bar{1}\bar{1}\right]_{Ag} &+& \frac{1}{6}\left[\bar{2}\bar{1}\bar{1}\right]_{Cu}  &+& \\
  & & \frac{1}{6}\left[2\bar{1}\bar{1}\right]_{Ag} &+& D_{res}, \\
 \frac{2}{3}BD/AC_{Ag} &\rightarrow& BD_{Ag} &+& \beta D_{Cu} \\
  & & B\delta_{Ag} &+& D_{res}
 	\end{array}
+ 	\end{footnotesize}
 \end{eqnarray}
 where $BD_{Ag}$ is a Lomer dislocation gliding in the Ag layer, $\beta D_{Cu}$ is a Shockley partial dislocation gliding in the Cu layer, $B\delta_{Ag}$ is the initial recovered interfacial misfit dislocation and $D_{res}$ is a residual interfacial dislocation (Fig. \ref{fig_s1AgTO}.c). The Shockley partial dislocation then crosses the entire Cu layer and induces the formation of a twin via the nucleation of successive Shockley dislocations from the free Cu surface. The interface thus directly plays the role of a source for twin nucleation. 
 
 Another mechanism of dislocation recombination which can lead to the formation of a Lomer dislocation has been observed for some runs, when two Shockley partial dislocations are nucleated successively in $\lbrace111\rbrace$ adjacent planes in the Cu layer, thus forming an extrinsic stacking fault.These two Shockley dislocations collapse and form a super dislocation ($ 2~D\beta_{Cu} $).
-
 The super dislocation rapidly dissociates into a sessile stair-rod dislocation ($\beta\delta_{Cu}$) stored at the interface and a Lomer dislocation $ BD_{Ag} $ which glides in a $\lbrace100\rbrace$ plane in the Ag layer, according to the reaction:
 
 \begin{eqnarray}\label{4}
@@ -293,7 +296,17 @@ The second mechanism, displayed in Fig.~\ref{fig_SOR}, corresponds to the exit f
 \section{Discussion and conclusion}
 \label{part_conclusion}
 
-%\textcolor{red}{Malgré ça (slower et not sufficient to completely relax the stress) il est probable que ce mécanisme soit plus important dans les systèmes réels que le mécanisme de rebond, qui est lié à la présence de surfaces proches et aussi probablement à la vitesse de déformation importante (effet cinétique, il me semble qu'il y avait une publi de Cai la-dessus). A discuter, ici, ou dans la partie 4.2, ou dans la conclusion (ma préférence pour le moment).}
+Our results highlight how heterophase interface structure impacts the different steps of the mechanical twinning process, namely nucleation, propagation and thickening. 
+
+By a direct comparison, we first show an important permeability difference to a moving TD between the two commonly observed interfaces in Cu/Ag multilayered materials (``cube on cube'' and ``heterotwin''). Depending on the interface structure, twin propagation is stopped for a TO interface or unaltered for a COC interface. The interface permeability also highly impacts the twin thickening process from surfaces and the size of the formed twin by annealing the ``rebound'' mechanism operating from surfaces for a COC interface. 
+
+We also show the non-negligible role play by misfit dislocations in twin nucleation and thickening. We first identify a new twin nucleation mechanism, directly from the TO interface. This mechanism results from the interaction of Shockley partial dislocations stored at the interface and misfit dislocations which leads directly to the nucleation of a Shockley partial dislocation from the interface. In our simulations, this Shockley partial dislocation leads to twin formation via a ``rebound'' mechanism at the surface. A recent study shows that surface ``rebound'' mechanism is governed by high-speed dislocations gliding \cite{li16AM}. Due to the time scale involved, high-speed dislocations are always considered in MD simulations whereas experimentally they are only obtained under extreme loading conditions. However, several experimental studies report ``rebound'' mechanism directly from interfaces \textcolor{blue}{REF} which may occur in these Cu/Ag multilayered materials. Another twin nucleation mechanism involving Lomer dislocations has also been identified and results from the partial dissociation of a Lomer dislocation. During its gliding a Lomer dislocation generates few Shockley partials and in some cases in parallel $\lbrace111\rbrace$ planes thereby forming twins. Lomer dislocations are often encountered experimentally especially under extreme loading conditions which is considered to be the case in MD.  
+
+Finally, we describe a new thickening mechanism involving misfit dislocations. In our simulations, twin formation from surfaces induces to the interface, a slight tilt with respect to the initial deformation axis. This rotation leads to a global misfit dislocations gliding which interact with the newly formed twin. We see in particular that the gliding of the whole misfit dislocations pattern through the full twin, leads to the nucleation of TDs from the interface and in both part of the film. One might expect that this thickening mechanism can operate in real systems since a twin has been formed. This mechanism can even occur in higher proportions than for our systems. In nanolayered materials for example, the loading direction is often different from our simulations with a loading axis normal to the interface. However in these systems, when twinning occurs it also leads locally, with the same order of magnitude, to a slight tilt of the interface \cite{an15APL} needed for the initiation of the mechanism. Moreover in these Cu/Ag multilayered systems, a recent MD study has shown (a normal loading axis is also considered) that an interface can bends over according to misfit dislocation gliding and at further strain induce twinning \cite{li15PM}. Therefore this thickening mechanism seems to be expected since a twin has been formed in the material even for different loading axis. 
+
+In conclusion, this study thus provides additional keys in the understanding of these very local twin-interface interactions mechanisms and follows the idea that twinning is facilitated by such heterophase interfaces. Designing multilayered materials in order to tune their mechanical properties is still a hot topic and manipulating the deformation mechanisms as twinning will allow to combine mechanical properties of nanolayered and nanotwinned materials.
+\\
+\\
 
 \noindent\textbf{Acknowledgements}\newline
 \label{part_acknowledgements}
@@ -349,7 +362,6 @@ The rotation matrix can then be written as a function of the rotation angle $ \t
 	\end{array}
 	\right)\end{footnotesize}
 \end{equation}
-
 with $ s=\sin(\theta_{i}) $ and $ c=\cos(\theta_{i}) $. \\
 The local rotation $ \theta_{i} $ associated to an atom $ i $ is next calculated from the trace of $ \mathbf{R}^{i} $:
 \begin{equation}
